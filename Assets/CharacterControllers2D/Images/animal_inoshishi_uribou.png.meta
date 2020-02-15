@@ -58,7 +58,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -69,6 +69,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -121,53 +122,53 @@ TextureImporter:
       - {x: 41, y: -129}
     bones:
     - name: spine
-      position: {x: 90.745674, y: 186.07156, z: 0}
-      rotation: {x: 0, y: 0, z: -0.015902912, w: 0.9998736}
-      length: 149.3669
+      position: {x: 91.31936, y: 214.18184, z: 0}
+      rotation: {x: 0, y: 0, z: -0.10851784, w: 0.9940945}
+      length: 152.30467
       parentId: -1
     - name: head
-      position: {x: 149.3669, y: 0.00008848734, z: 0}
-      rotation: {x: 0, y: 0, z: -0.18712543, w: 0.98233604}
+      position: {x: 152.30467, y: 0.000035998204, z: 0}
+      rotation: {x: 0, y: 0, z: -0.09526205, w: 0.9954523}
       length: 131.60786
       parentId: 0
     - name: left_arm
       position: {x: 30.780773, y: -64.318596, z: 0}
-      rotation: {x: 0, y: 0, z: -0.49752763, w: 0.86744815}
+      rotation: {x: 0, y: 0, z: -0.4975277, w: 0.8674481}
       length: 50.586273
       parentId: 1
     - name: left_hand
-      position: {x: 50.58627, y: -0.000012462608, z: 0}
-      rotation: {x: 0, y: 0, z: 0.2733345, w: 0.9619191}
+      position: {x: 50.586277, y: 0.000009458535, z: 0}
+      rotation: {x: 0, y: 0, z: 0.2733346, w: 0.96191907}
       length: 17.380602
       parentId: 2
     - name: right_arm
       position: {x: -13.69149, y: -87.99282, z: 0}
-      rotation: {x: 0, y: 0, z: -0.5106403, w: 0.85979444}
-      length: 52.46752
+      rotation: {x: 0, y: 0, z: -0.5106403, w: 0.8597945}
+      length: 52.467518
       parentId: 1
     - name: right_hand
-      position: {x: 52.467518, y: 0.000016625143, z: 0}
-      rotation: {x: 0, y: 0, z: 0.234134, w: 0.9722044}
+      position: {x: 52.467514, y: 0.0000049495684, z: 0}
+      rotation: {x: 0, y: 0, z: 0.23413397, w: 0.9722043}
       length: 15.249597
       parentId: 4
     - name: left_leg
-      position: {x: 3.1261346, y: -55.573685, z: 0}
-      rotation: {x: 0, y: 0, z: -0.5422515, w: 0.8402162}
-      length: 51.41697
+      position: {x: 18.835619, y: -81.61363, z: 0}
+      rotation: {x: 0, y: 0, z: -0.46203277, w: 0.8868629}
+      length: 51.416958
       parentId: 0
     - name: left_foot
-      position: {x: 51.41696, y: 0.000008308587, z: 0}
-      rotation: {x: 0, y: 0, z: -0.008133638, w: 0.9999669}
+      position: {x: 51.416965, y: 0.000005855266, z: 0}
+      rotation: {x: 0, y: 0, z: -0.008133704, w: 0.999967}
       length: 31.37737
       parentId: 6
     - name: right_leg
-      position: {x: -35.57755, y: -55.447273, z: 0}
-      rotation: {x: 0, y: 0, z: -0.53868896, w: 0.84250474}
+      position: {x: -19.226286, y: -88.63377, z: 0}
+      rotation: {x: 0, y: 0, z: -0.4582737, w: 0.8888111}
       length: 48.651264
       parentId: 0
     - name: left_foot
-      position: {x: 48.65126, y: 0.000002681952, z: 0}
-      rotation: {x: 0, y: 0, z: -0.02783362, w: 0.9996126}
+      position: {x: 48.651264, y: 0.000016089522, z: 0}
+      rotation: {x: 0, y: 0, z: -0.027833488, w: 0.99961257}
       length: 36.061607
       parentId: 8
     spriteID: 7e93a1d83f44440f2a140b08cd99611f
@@ -976,8 +977,8 @@ TextureImporter:
       boneIndex[1]: 4
       boneIndex[2]: 0
       boneIndex[3]: 0
-    - weight[0]: 0.49327844
-      weight[1]: 0.36396286
+    - weight[0]: 0.49327847
+      weight[1]: 0.3639629
       weight[2]: 0.14275868
       weight[3]: 0
       boneIndex[0]: 6

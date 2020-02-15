@@ -94,8 +94,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
     m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -143,14 +143,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 56091596}
-  m_LocalRotation: {x: 0, y: 0, z: -0.17960136, w: 0.9837395}
+  m_LocalRotation: {x: 0, y: 0, z: -0.84055436, w: 0.54172724}
   m_LocalPosition: {x: 0.031261347, y: -0.55573684, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1927302091}
   m_Father: {fileID: 1305220800}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -20.693}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -114.397}
 --- !u!1 &69378767
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,13 +183,9 @@ MonoBehaviour:
   OnButtonEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: CharacterControllers2D.Inputs.ButtonEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   OnActionEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: CharacterControllers2D.Inputs.ActionEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!4 &69378769
 Transform:
   m_ObjectHideFlags: 0
@@ -227,14 +223,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170238923}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7880025, w: 0.61567205}
+  m_LocalRotation: {x: 0, y: 0, z: -0.21326865, w: 0.9769936}
   m_LocalPosition: {x: -0.13691491, y: -0.87992823, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1612258523}
   m_Father: {fileID: 204092950}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 103.99801}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -24.628}
 --- !u!1 &204092949
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,7 +254,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204092949}
-  m_LocalRotation: {x: 0, y: 0, z: 0.0097387405, w: 0.99995255}
+  m_LocalRotation: {x: 0, y: 0, z: -0.66606706, w: 0.7458919}
   m_LocalPosition: {x: 1.4936692, y: 0.00000073721526, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -381,6 +377,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -427,7 +424,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265337291}
-  m_LocalRotation: {x: 0, y: 0, z: -0.6666047, w: 0.7454115}
+  m_LocalRotation: {x: 0, y: 0, z: 0.016659722, w: 0.99986124}
   m_LocalPosition: {x: 0.5058627, y: -0.0000000049545097, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -546,6 +543,7 @@ MonoBehaviour:
   m_Bounds:
     m_Center: {x: 1.0804049, y: -0.15838766, z: 0}
     m_Extent: {x: 2.398523, y: 1.6955767, z: 0}
+  m_UseBatching: 1
 --- !u!212 &337472263
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -571,6 +569,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -707,6 +706,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -823,14 +823,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450182565}
-  m_LocalRotation: {x: 0, y: 0, z: -0.30991027, w: 0.95076585}
+  m_LocalRotation: {x: 0, y: 0, z: -0.8257672, w: 0.56401116}
   m_LocalPosition: {x: -0.35577548, y: -0.55447274, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1624771102}
   m_Father: {fileID: 1305220800}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -36.108}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -111.33301}
 --- !u!1 &492001817
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,14 +854,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 492001817}
-  m_LocalRotation: {x: 0, y: 0, z: 0.8000901, w: 0.5998799}
+  m_LocalRotation: {x: 0, y: 0, z: -0.18431568, w: 0.9828671}
   m_LocalPosition: {x: 0.30780774, y: -0.643186, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 265337292}
   m_Father: {fileID: 204092950}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 106.27701}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -21.242}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,13 +919,9 @@ MonoBehaviour:
   m_CameraCutEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Cinemachine.CinemachineBrain+BrainEvent, Cinemachine, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1100,7 +1096,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1305220799}
-  m_LocalRotation: {x: 0, y: 0, z: -0.26928145, w: 0.9630616}
+  m_LocalRotation: {x: 0, y: 0, z: 0.37874237, w: 0.9255022}
   m_LocalPosition: {x: -1.0925432, y: 0.04071564, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1109,7 +1105,7 @@ Transform:
   - {fileID: 450182566}
   m_Father: {fileID: 337472264}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -31.243002}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 44.512}
 --- !u!1 &1390414562
 GameObject:
   m_ObjectHideFlags: 3
@@ -1264,6 +1260,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1348,6 +1345,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1438,8 +1436,6 @@ MonoBehaviour:
   OnCharacterEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: CharacterControllers2D.CharacterEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   walkSpeed: 10
   jumpSpeed: 20
   airControl: 0.4
@@ -1559,7 +1555,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612258522}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7712559, w: -0.6365252}
+  m_LocalRotation: {x: 0, y: 0, z: -0.018509137, w: 0.9998287}
   m_LocalPosition: {x: 0.5246752, y: 0.000000071799725, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1590,7 +1586,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624771101}
-  m_LocalRotation: {x: 0, y: 0, z: 0.064410694, w: 0.9979235}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7068517, w: 0.7073618}
   m_LocalPosition: {x: 0.48651263, y: 0.00000009705433, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1663,8 +1659,6 @@ MonoBehaviour:
     m_OnCameraLive:
       m_PersistentCalls:
         m_Calls: []
-      m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1390414563}
 --- !u!1 &1851279507
@@ -1816,7 +1810,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927302090}
-  m_LocalRotation: {x: 0, y: 0, z: -0.11469919, w: 0.99340034}
+  m_LocalRotation: {x: 0, y: 0, z: -0.5215495, w: 0.85322106}
   m_LocalPosition: {x: 0.51416963, y: -0.000000027857562, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

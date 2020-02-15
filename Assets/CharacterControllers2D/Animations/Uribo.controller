@@ -42,12 +42,12 @@ AnimatorStateMachine:
   - {fileID: 4682349559169329667}
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: 3604281271005732745}
-    second:
-    - {fileID: -5572369069926748407}
   - first: {fileID: -1616425187181890404}
     second:
     - {fileID: 2410365594035466237}
+  - first: {fileID: 3604281271005732745}
+    second:
+    - {fileID: -5572369069926748407}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
